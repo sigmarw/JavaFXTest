@@ -7,17 +7,17 @@
 
 <AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
    <children>
-      <Pane layoutX="-140.0" layoutY="-185.0" prefHeight="441.0" prefWidth="545.0">
+      <Pane layoutX="-140.0" layoutY="-185.0" prefHeight="441.0" prefWidth="545.0" stylesheets="@application/application.css">
          <children>
-            <TextArea fx:id="out" layoutX="350.0" layoutY="204.0" prefHeight="223.0" prefWidth="181.0" />
-            <Button fx:id="b1" layoutX="298.0" layoutY="204.0" mnemonicParsing="false" text="#YOLO" />
+            <TextArea id="text" fx:id="out" layoutX="364.0" layoutY="204.0" prefHeight="223.0" prefWidth="167.0" />
+            <Button fx:id="b1" layoutX="298.0" layoutY="203.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" text="#YOLO" />
             <TextField layoutX="149.0" layoutY="204.0" />
             <TextField layoutX="149.0" layoutY="229.0" />
-            <Button fx:id="b2" layoutX="298.0" layoutY="229.0" mnemonicParsing="false" text="feeling" />
+            <Button fx:id="b2" layoutX="298.0" layoutY="228.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" text="feeling" />
             <TextField layoutX="149.0" layoutY="254.0" />
-            <Button fx:id="b3" layoutX="298.0" layoutY="254.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="53.0" text="lucky" />
+            <Button fx:id="b3" layoutX="298.0" layoutY="253.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" text="lucky" />
             <TextField layoutX="149.0" layoutY="279.0" />
-            <Button fx:id="b4" layoutX="298.0" layoutY="279.0" mnemonicParsing="false" onAction="#b4" prefHeight="25.0" prefWidth="53.0" text="guyz!" />
+            <Button fx:id="b4" layoutX="298.0" layoutY="278.0" mnemonicParsing="false" onAction="#b4" prefHeight="27.0" prefWidth="67.0" text="guyz!" />
          </children>
       </Pane>
    </children>

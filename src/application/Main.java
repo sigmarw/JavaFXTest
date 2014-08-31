@@ -20,8 +20,6 @@ public class Main extends Application {
 			final AnchorPane page = (AnchorPane) FXMLLoader.load(getClass()
 					.getResource("/MainWindow.fxml"));
 			final Scene scene = new Scene(page, 400, 400);
-			scene.getStylesheets().add(
-					getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("BlahDiBlah");
 			primaryStage.show();
@@ -37,6 +35,6 @@ public class Main extends Application {
 	@FXML
 	void b4(final ActionEvent e) {
 		System.out.println("hi");
-		out.setText("3======>");
+		out.setText("<3");
 	}
 }
