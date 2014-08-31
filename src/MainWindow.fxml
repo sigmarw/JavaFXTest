@@ -10,13 +10,13 @@
       <Pane layoutX="-140.0" layoutY="-185.0" prefHeight="441.0" prefWidth="545.0" stylesheets="@application/application.css">
          <children>
             <TextArea id="text" fx:id="out" layoutX="364.0" layoutY="204.0" prefHeight="223.0" prefWidth="167.0" />
-            <Button fx:id="b1" layoutX="298.0" layoutY="203.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" text="#YOLO" />
-            <TextField layoutX="149.0" layoutY="204.0" />
-            <TextField layoutX="149.0" layoutY="229.0" />
-            <Button fx:id="b2" layoutX="298.0" layoutY="228.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" text="feeling" />
-            <TextField layoutX="149.0" layoutY="254.0" />
-            <Button fx:id="b3" layoutX="298.0" layoutY="253.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" text="lucky" />
-            <TextField layoutX="149.0" layoutY="279.0" />
+            <Button fx:id="b1" layoutX="298.0" layoutY="203.0" mnemonicParsing="false" onAction="#b1" prefHeight="27.0" prefWidth="67.0" text="#YOLO" />
+            <TextField fx:id="in1" layoutX="149.0" layoutY="204.0" />
+            <TextField fx:id="in2" layoutX="149.0" layoutY="229.0" />
+            <Button fx:id="b2" layoutX="298.0" layoutY="228.0" mnemonicParsing="false" onAction="#b2" prefHeight="27.0" prefWidth="67.0" text="feeling" />
+            <TextField fx:id="in3" layoutX="149.0" layoutY="254.0" />
+            <Button fx:id="b3" layoutX="298.0" layoutY="253.0" mnemonicParsing="false" onAction="#b3" prefHeight="27.0" prefWidth="67.0" text="lucky" />
+            <TextField fx:id="in4" layoutX="149.0" layoutY="279.0" />
             <Button fx:id="b4" layoutX="298.0" layoutY="278.0" mnemonicParsing="false" onAction="#b4" prefHeight="27.0" prefWidth="67.0" text="guyz!" />
          </children>
       </Pane>
